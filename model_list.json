@@ -170,7 +170,22 @@
             "bilibili-live/22/xmas_hat",
             "bilibili-live/22/xmas_headwear"
         ],
-        "bilibili-live/33",
+        [
+            "bilibili-live/33/cba_normal",
+            "bilibili-live/33/cba_super",
+            "bilibili-live/33/default",
+            "bilibili-live/33/newyear",
+            "bilibili-live/33/school2017",
+            "bilibili-live/33/spring",
+            "bilibili-live/33/summer2017_high",
+            "bilibili-live/33/summer2017_low",
+            "bilibili-live/33/tomo_high",
+            "bilibili-live/33/tomo_low",
+            "bilibili-live/33/valley2017",
+            "bilibili-live/33/vdays",
+            "bilibili-live/33/xmas_hat",
+            "bilibili-live/33/xmas_headwear"
+        ],
         [
             "ShizukuTalk/shizuku-48",
             "ShizukuTalk/shizuku-pajama"
@@ -196,8 +211,7 @@
             "HyperdimensionNeptunia/nepgearswim",
             "HyperdimensionNeptunia/histoire",
             "HyperdimensionNeptunia/histoirenohover"
-        ],
-        "KantaiCollection/murakumo"
+        ]
     ],
     "messages": [
         "来自 Potion Maker 的 Pio 酱 ~",
@@ -205,7 +219,6 @@
         "来自 Bilibili Live 的 22 哦 ~",
         "来自 Bilibili Live 的 33 的说",
         "Shizuku Talk ！这里是 Shizuku ~",
-        "Nep! Nep! 超次元游戏：海王星 系列",
-        "艦隊これくしょん / 叢雲(むらくも)"
+        "Nep! Nep! 超次元游戏：海王星 系列"
     ]
 }
