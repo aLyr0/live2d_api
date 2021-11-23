@@ -1,0 +1,759 @@
+{
+    "id": "800ZdanniconicoAyanami",
+    "model": "model4.moc",
+    "textures": [
+        "costume0.png"
+    ],
+    "bubble": null,
+    "hit_areas": [
+        {
+            "name": "PT",
+            "id": "D_REF.PT"
+        },
+        {
+            "name": "YL",
+            "id": "D_REF.YL"
+        },
+        {
+            "name": "JTZ",
+            "id": "D_REF.JTZ"
+        },
+        {
+            "name": "TXZ",
+            "id": "D_REF.TXZ"
+        },
+        {
+            "name": "CXZ",
+            "id": "D_REF.CXZ"
+        },
+        {
+            "name": "ZJTSW",
+            "id": "D_REF.ZJTW"
+        },
+        {
+            "name": "ZJCW",
+            "id": "D_REF.ZJCW"
+        },
+        {
+            "name": "YJQDBTSW",
+            "id": "D_REF.YJQDBTW"
+        },
+        {
+            "name": "YJBDQTSW",
+            "id": "D_REF.YJBDQTW"
+        },
+        {
+            "name": "YJQHTW",
+            "id": "D_REF.YJQHTW"
+        },
+        {
+            "name": "YJTSW",
+            "id": "D_REF.YJTW"
+        },
+        {
+            "name": "YJCW",
+            "id": "D_REF.YJCW"
+        },
+        {
+            "name": "KHHZ",
+            "id": "D_REF.KHZ"
+        },
+        {
+            "name": "LBYF",
+            "id": "D_REF.LYF"
+        },
+        {
+            "name": "XBYF",
+            "id": "D_REF.XYF"
+        },
+        {
+            "name": "-10",
+            "id": "D_REF.HEADX"
+        },
+        {
+            "name": "head",
+            "id": "D_REF.HEADD"
+        },
+        {
+            "name": "shijian1Y",
+            "id": "D_REF.EAR"
+        },
+        {
+            "name": "shijian2Y",
+            "id": "D_REF.BODY"
+        },
+        {
+            "name": "CRBBZ",
+            "id": "D_REF.CRBZ"
+        },
+        {
+            "name": "TRBBZ",
+            "id": "D_REF.TRBZ"
+        },
+        {
+            "name": "CJBZ",
+            "id": "D_REF.CJBZ"
+        },
+        {
+            "name": "TJBZ",
+            "id": "D_REF.TJBZ"
+        },
+        {
+            "name": "CRBQC",
+            "id": "D_REF.CRQC"
+        },
+        {
+            "name": "TRBQC",
+            "id": "D_REF.TRQC"
+        },
+        {
+            "name": "CJQC",
+            "id": "D_REF.CJQC"
+        },
+        {
+            "name": "TJQC",
+            "id": "D_REF.TJQC"
+        },
+        {
+            "name": "CYF",
+            "id": "D_REF.CYF"
+        },
+        {
+            "name": "TYF",
+            "id": "D_REF.TYF"
+        },
+        {
+            "name": "CPC",
+            "id": "D_REF.CPC"
+        },
+        {
+            "name": "THPC",
+            "id": "D_REF.TPC"
+        }
+    ],
+    "hit_params": [
+        {
+            "id": "PARAM_ZJTW",
+            "hit_area": "ZJTSW",
+            "axis": 0,
+            "factor": 0.0,
+            "min_group": null,
+            "min_motion": null,
+            "max_group": "tap_ZJTW",
+            "max_motion": null
+        },
+        {
+            "id": "PARAM_YJQDBTW",
+            "hit_area": "YJQDBTSW",
+            "axis": 1,
+            "distance": 100,
+            "factor": 0.0,
+            "min_group": "tap_YJQDBTW",
+            "min_motion": null,
+            "max_group": null,
+            "max_motion": null
+        },
+        {
+            "id": "PARAM_YJBDQTW",
+            "hit_area": "YJBDQTSW",
+            "axis": 1,
+            "distance": 100,
+            "factor": 0.0,
+            "min_group": null,
+            "min_motion": null,
+            "max_group": "tap_YJBDQTW",
+            "max_motion": null
+        },
+        {
+            "id": "PARAM_YJTW",
+            "hit_area": "YJTSW",
+            "axis": 0,
+            "factor": 0.0,
+            "min_group": "tap_YJTW",
+            "min_motion": null,
+            "max_group": null,
+            "max_motion": null
+        },
+        {
+            "id": "PARAM_RBZ",
+            "hit_area": "CRBBZ",
+            "axis": 0,
+            "distance": 100,
+            "factor": 0.0,
+            "min_group": "tap_CRBZ",
+            "min_motion": null,
+            "max_group": null,
+            "max_motion": null
+        },
+        {
+            "id": "PARAM_RBZ",
+            "hit_area": "TRBBZ",
+            "axis": 0,
+            "distance": 100,
+            "factor": 0.0,
+            "min_group": "tap_TRBZ",
+            "min_motion": null,
+            "max_group": null,
+            "max_motion": null
+        },
+        {
+            "id": "PARAM_RQC",
+            "hit_area": "CRBQC",
+            "axis": 0,
+            "factor": 0.0,
+            "min_group": null,
+            "min_motion": null,
+            "max_group": "tap_CRQC",
+            "max_motion": null
+        },
+        {
+            "id": "PARAM_RQC",
+            "hit_area": "TRBQC",
+            "axis": 0,
+            "factor": 0.0,
+            "min_group": null,
+            "min_motion": null,
+            "max_group": "tap_TRQC",
+            "max_motion": null
+        },
+        {
+            "id": "PARAM_Khezi",
+            "hit_area": "KHHZ",
+            "axis": 1,
+            "distance": 100,
+            "factor": 0.0,
+            "min_group": null,
+            "min_motion": null,
+            "max_group": "tap_KHZ",
+            "max_motion": null
+        },
+        {
+            "id": "PARAM_LYF",
+            "hit_area": "LBYF",
+            "axis": 1,
+            "distance": 100,
+            "factor": 0.0,
+            "min_group": "tap_LYF",
+            "min_motion": null,
+            "max_group": null,
+            "max_motion": null
+        },
+        {
+            "id": "PARAM_XYF",
+            "hit_area": "XBYF",
+            "axis": 1,
+            "distance": 100,
+            "factor": 0.0,
+            "min_group": null,
+            "min_motion": null,
+            "max_group": "tap_XYF",
+            "max_motion": null
+        },
+        {
+            "id": "PARAM_TPD",
+            "hit_area": "THPC",
+            "axis": 1,
+            "distance": 100,
+            "factor": 0.0,
+            "min_group": "tap_TPC",
+            "min_motion": null,
+            "max_group": null,
+            "max_motion": null
+        }
+    ],
+    "motions": {
+        "start": [
+            {
+                "file": "motion17.mtn",
+                "sound": "model0.moc",
+                "text": "绫波……的说，他们喜欢叫我“鬼神”就是了。请多指教 ",
+                "fade_in": 0,
+                "fade_out": 0,
+                "post_command": "start_mtn 800ZdanBelfast tap_model:800ZdanBelfast",
+                "time_limit": null,
+                "intimacy": null
+            }
+        ],
+        "idle": [
+            {
+                "file": "motion2.mtn",
+                "time_limit": {
+                    "begin": 6,
+                    "end": 17
+                },
+                "intimacy": {
+                    "min": -1,
+                    "max": 100
+                }
+            },
+            {
+                "file": "motion2.mtn",
+                "time_limit": {
+                    "begin": 18,
+                    "end": 23
+                },
+                "intimacy": {
+                    "min": -1,
+                    "max": 99
+                }
+            },
+            {
+                "file": "motion2.mtn",
+                "time_limit": {
+                    "begin": 0,
+                    "end": 5
+                },
+                "intimacy": {
+                    "min": -1,
+                    "max": 99
+                }
+            },
+            {
+                "file": "motion32.mtn",
+                "time_limit": {
+                    "begin": 18,
+                    "end": 23
+                },
+                "intimacy": {
+                    "min": 99
+                }
+            },
+            {
+                "file": "motion32.mtn",
+                "time_limit": {
+                    "begin": 0,
+                    "end": 5
+                },
+                "intimacy": {
+                    "min": 99
+                }
+            },
+            {
+                "file": "motion7.mtn",
+                "time_limit": null,
+                "intimacy": {
+                    "max": -1
+                }
+            }
+        ],
+        "tick_1": [
+            {
+                "file": "motion28.mtn",
+                "sound": "model14.moc",
+                "text": "我不要……一个人……",
+                "priority": 2,
+                "time_limit": null,
+                "intimacy": {
+                    "max": -1,
+                    "bonus": -5
+                }
+            }
+        ],
+        "tick_2": [
+            {
+                "file": "motion16.mtn",
+                "sound": "model7.moc",
+                "text": "指挥官……你一直说绫波的耳朵可爱，但是为什么不摸摸看呢？",
+                "priority": 2,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 0
+                },
+                "next_mtn": "tap_shijian1N"
+            },
+            {
+                "file": "motion33.mtn",
+                "sound": "model5.moc",
+                "text": "指挥官…？   指挥官…？",
+                "priority": 2,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 0
+                },
+                "next_mtn": "tap_shijian2N"
+            }
+        ],
+        "tap_shijian1N": [
+            {
+                "file": "motion36.mtn",
+                "sound": "model8.moc",
+                "text": "绫波不是很明白…… ",
+                "priority": 2,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 0,
+                    "bonus": -10
+                }
+            }
+        ],
+        "tap_shijian1Y": [
+            {
+                "file": "motion22.mtn",
+                "sound": "model10.moc",
+                "text": "唔——有点痒…… ",
+                "priority": 6,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 0,
+                    "bonus": 30
+                }
+            }
+        ],
+        "tap_shijian2N": [
+            {
+                "file": "motion6.mtn",
+                "sound": "model13.moc",
+                "text": "最近时常会做和大家走散的噩梦，一定是我做的还不够好…… ",
+                "priority": 2,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 0,
+                    "bonus": -10
+                }
+            }
+        ],
+        "tap_shijian2Y": [
+            {
+                "file": "motion31.mtn",
+                "sound": "model6.moc",
+                "text": "不，没事。我只是确认一下你是不是还在 ",
+                "priority": 6,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 0,
+                    "bonus": 30
+                }
+            }
+        ],
+        "tap_PT": [
+            {
+                "file": "motion21.mtn",
+                "sound": "model12.moc",
+                "priority": 3,
+                "time_limit": null,
+                "intimacy": null
+            }
+        ],
+        "tap_YL": [
+            {
+                "file": "motion25.mtn",
+                "sound": "model2.moc",
+                "priority": 3,
+                "time_limit": null,
+                "intimacy": null
+            }
+        ],
+        "tap_JTZ": [
+            {
+                "file": "motion4.mtn",
+                "priority": 3,
+                "time_limit": null,
+                "intimacy": null
+            }
+        ],
+        "tap_TXZ": [
+            {
+                "file": "motion34.mtn",
+                "priority": 3,
+                "time_limit": null,
+                "intimacy": null
+            }
+        ],
+        "tap_CXZ": [
+            {
+                "file": "motion43.mtn",
+                "priority": 3,
+                "time_limit": null,
+                "intimacy": null
+            }
+        ],
+        "tap_ZJTW": [
+            {
+                "file": "motion14.mtn",
+                "priority": 3,
+                "time_limit": null,
+                "intimacy": null
+            }
+        ],
+        "tap_ZJCW": [
+            {
+                "file": "motion0.mtn",
+                "priority": 3,
+                "time_limit": null,
+                "intimacy": null
+            }
+        ],
+        "tap_YJQDBTW": [
+            {
+                "file": "motion39.mtn",
+                "priority": 3,
+                "time_limit": null,
+                "intimacy": null
+            }
+        ],
+        "tap_YJBDQTW": [
+            {
+                "file": "motion20.mtn",
+                "priority": 3,
+                "time_limit": null,
+                "intimacy": null
+            }
+        ],
+        "tap_YJQHTW": [
+            {
+                "file": "motion13.mtn",
+                "priority": 3,
+                "time_limit": null,
+                "intimacy": null
+            }
+        ],
+        "tap_YJTW": [
+            {
+                "file": "motion19.mtn",
+                "priority": 3,
+                "time_limit": null,
+                "intimacy": null
+            }
+        ],
+        "tap_YJCW": [
+            {
+                "file": "motion12.mtn",
+                "priority": 3,
+                "time_limit": null,
+                "intimacy": null
+            }
+        ],
+        "tap_LYF": [
+            {
+                "file": "motion15.mtn",
+                "sound": "model1.moc",
+                "text": "想去……所罗门吗？",
+                "priority": 4,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 0
+                }
+            }
+        ],
+        "tap_XYF": [
+            {
+                "file": "motion35.mtn",
+                "sound": "model3.moc",
+                "text": "鬼神之力，好好感受吧！",
+                "priority": 4,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 0
+                }
+            }
+        ],
+        "tap_-10": [
+            {
+                "file": "motion29.mtn",
+                "sound": "model9.moc",
+                "text": "没关系……我自己很快就会好起来的 ",
+                "priority": 3,
+                "time_limit": null,
+                "intimacy": {
+                    "max": -1,
+                    "bonus": 5
+                }
+            }
+        ],
+        "tap_head": [
+            {
+                "file": "motion18.mtn",
+                "sound": "model11.moc",
+                "text": "虽然不太明白这样有什么意义……但是有点高兴",
+                "priority": 3,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 0
+                }
+            }
+        ],
+        "tap_CRBZ": [
+            {
+                "file": "motion8.mtn",
+                "priority": 4,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 80
+                }
+            }
+        ],
+        "tap_TRBZ": [
+            {
+                "file": "motion37.mtn",
+                "priority": 4,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 80
+                }
+            }
+        ],
+        "tap_CJBZ": [
+            {
+                "file": "motion11.mtn",
+                "priority": 4,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 80
+                }
+            }
+        ],
+        "tap_TJBZ": [
+            {
+                "file": "motion26.mtn",
+                "priority": 4,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 80
+                }
+            }
+        ],
+        "tap_CRQC": [
+            {
+                "file": "motion23.mtn",
+                "priority": 4,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 80
+                }
+            }
+        ],
+        "tap_TRQC": [
+            {
+                "file": "motion38.mtn",
+                "priority": 4,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 80
+                }
+            }
+        ],
+        "tap_CJQC": [
+            {
+                "file": "motion42.mtn",
+                "priority": 4,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 80
+                }
+            }
+        ],
+        "tap_TJQC": [
+            {
+                "file": "motion1.mtn",
+                "priority": 4,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 80
+                }
+            }
+        ],
+        "tap_KHZ": [
+            {
+                "file": "motion24.mtn",
+                "priority": 4,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 90
+                }
+            },
+            {
+                "file": "motion3.mtn",
+                "priority": 4,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 90
+                }
+            },
+            {
+                "file": "motion5.mtn",
+                "priority": 4,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 90
+                }
+            },
+            {
+                "file": "motion41.mtn",
+                "priority": 4,
+                "time_limit": null,
+                "intimacy": {
+                    "min": 90
+                }
+            },
+            {
+                "file": "motion27.mtn",
+                "priority": 4,
+                "time_limit": {
+                    "begin": 18,
+                    "end": 23
+                },
+                "intimacy": {
+                    "min": 99
+                }
+            },
+            {
+                "file": "motion27.mtn",
+                "priority": 4,
+                "time_limit": {
+                    "begin": 0,
+                    "end": 5
+                },
+                "intimacy": {
+                    "min": 99
+                }
+            }
+        ],
+        "tap_TYF": [
+            {
+                "file": "motion30.mtn",
+                "priority": 4,
+                "time_limit": null,
+                "intimacy": null
+            }
+        ],
+        "tap_CYF": [
+            {
+                "file": "motion40.mtn",
+                "priority": 4,
+                "time_limit": null,
+                "intimacy": null
+            }
+        ],
+        "tap_TPC": [
+            {
+                "file": "motion10.mtn",
+                "priority": 4,
+                "time_limit": null,
+                "intimacy": null
+            }
+        ],
+        "tap_CPC": [
+            {
+                "file": "motion9.mtn",
+                "priority": 4,
+                "time_limit": null,
+                "intimacy": null
+            }
+        ]
+    },
+    "physics": "physics.json",
+    "lip_sync": "true",
+    "lip_scale": 10,
+    "intimacy_param": {
+        "init_value": 60,
+        "min_value": -10,
+        "max_value": 100,
+        "bonus_active": 1,
+        "bonus_inactive": -1
+    },
+    "layout":{
+        "center_x": -0.5,
+        "center_y": -0.2,
+        "width": 6
+    }
+}
