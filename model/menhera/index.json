@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "id": "menhera",
+    "model": "model0.moc",
+    "textures": [
+        "costume0.png"
+    ],
+    "physics": "physics.json",
+    "lip_sync": "true",
+    "allow_mod": false,
+    "layout":{
+        "center_x": 0.0,
+        "center_y": -0.7,
+        "width": 2
+    }
+}

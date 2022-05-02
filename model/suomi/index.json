@@ -1,0 +1,104 @@
+{
+    "version": "Sample 1.0.0",
+    "model": "model0.moc",
+    "textures": [
+        "costume0.png"
+    ],
+    "hit_areas": [
+        {
+            "name": "head",
+            "id": "D_REF_HEAD"
+        },
+        {
+            "name": "leg",
+            "id": "D_REF_LEG"
+        },
+        {
+            "name": "body",
+            "id": "D_REF_BODY"
+        },
+        {
+            "name": "legR",
+            "id": "legR"
+        },
+        {
+            "name": "legL",
+            "id": "legL"
+        },
+        {
+            "name": "D___RootPart__.01",
+            "id": "D___RootPart__.01"
+        },
+        {
+            "name": "D___RootPart__.00",
+            "id": "D___RootPart__.00"
+        },
+        {
+            "name": "D___RootPart__.02",
+            "id": "D___RootPart__.02"
+        },
+        {
+            "name": "D___RootPart__.03",
+            "id": "D___RootPart__.03"
+        }
+    ],
+    "motions": {
+        "idle": [
+            {
+                "file": "motion11.mtn"
+            },
+            {
+                "file": "motion5.mtn"
+            },
+            {
+                "file": "motion1.mtn"
+            }
+        ],
+        "start": [
+            {
+                "file": "motion2.mtn"
+            }
+        ],
+        "shake": [
+            {
+                "file": "motion7.mtn"
+            }
+        ],
+        "tap": [
+            {
+                "file": "motion6.mtn"
+            },
+            {
+                "file": "motion8.mtn"
+            },
+            {
+                "file": "motion3.mtn"
+            },
+            {
+                "file": "motion12.mtn"
+            },
+            {
+                "file": "motion0.mtn"
+            },
+            {
+                "file": "motion4.mtn"
+            },
+            {
+                "file": "motion13.mtn"
+            }
+        ],
+        "tap_body": [
+            {
+                "file": "motion10.mtn"
+            },
+            {
+                "file": "motion9.mtn"
+            }
+        ]
+    },
+    "layout":{
+        "center_x": 0.0,
+        "center_y": -1.4,
+        "width": 3
+    }
+}
