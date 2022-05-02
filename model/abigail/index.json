@@ -1,0 +1,144 @@
+{
+    "version": "Live2DViewerEX Config 1.0",
+    "model": "model0.moc",
+    "textures": [
+        "costume1.png",
+        "costume2.png",
+        "costume0.png"
+    ],
+    "hit_areas": [
+        {
+            "name": "A",
+            "id": "D_PSD_36"
+        },
+        {
+            "name": "B",
+            "id": "D_PSD_52"
+        }
+    ],
+    "loop_params": [
+        {
+            "id": "PARAM_dust",
+            "type": 0,
+            "duration": 15000,
+            "weight": 1.0
+        },
+        {
+            "id": "PARAM_ss",
+            "type": 1,
+            "duration": 15000,
+            "weight": 1.0
+        },
+        {
+            "id": "PARAM_ba",
+            "type": 0,
+            "duration": 8000,
+            "weight": 1.0
+        }
+    ],
+    "motions": {
+        "idle": [
+            {
+                "file": "motion12.mtn",
+                "fade_in": 0,
+                "fade_out": 0,
+                "priority": 0
+            },
+            {
+                "file": "motion7.mtn",
+                "fade_in": 0,
+                "fade_out": 0,
+                "priority": 0
+            },
+            {
+                "file": "motion1.mtn",
+                "fade_in": 0,
+                "fade_out": 0,
+                "priority": 0
+            },
+            {
+                "file": "motion5.mtn",
+                "fade_in": 0,
+                "fade_out": 0,
+                "priority": 0
+            }
+        ],
+        "tap_A": [
+            {
+                "file": "motion8.mtn",
+                "fade_in": 1000,
+                "fade_out": 0,
+                "priority": 0
+            },
+            {
+                "name": null,
+                "file": "motion0.mtn",
+                "fade_in": 1000,
+                "fade_out": 0,
+                "priority": 0
+            },
+            {
+                "file": "motion11.mtn",
+                "fade_in": 1000,
+                "fade_out": 0,
+                "priority": 0
+            },
+            {
+                "file": "motion9.mtn",
+                "fade_in": 1000,
+                "fade_out": 0,
+                "priority": 0
+            },
+            {
+                "file": "motion2.mtn",
+                "fade_in": 1000,
+                "fade_out": 0,
+                "priority": 0
+            }
+        ],
+        "tap_B": [
+            {
+                "file": "motion6.mtn",
+                "fade_in": 1000,
+                "fade_out": 0,
+                "priority": 0
+            },
+            {
+                "file": "motion3.mtn",
+                "fade_in": 1000,
+                "fade_out": 0,
+                "priority": 0
+            },
+            {
+                "file": "motion10.mtn",
+                "fade_in": 1000,
+                "fade_out": 0,
+                "priority": 0
+            },
+            {
+                "file": "motion4.mtn",
+                "fade_in": 1000,
+                "fade_out": 0,
+                "priority": 0
+            },
+            {
+                "file": "motion14.mtn",
+                "fade_in": 1000,
+                "fade_out": 0,
+                "priority": 0
+            },
+            {
+                "file": "motion13.mtn",
+                "fade_in": 1000,
+                "fade_out": 0,
+                "priority": 0
+            }
+        ]
+    },
+    "physics": "physics.json",
+    "layout":{
+        "center_x": 0.3,
+        "center_y": 0.0,
+        "width": 2
+    }
+}
